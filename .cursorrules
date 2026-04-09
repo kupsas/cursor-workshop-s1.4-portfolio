@@ -1,0 +1,19 @@
+# Personal Portfolio — Cursor context
+
+## Stack
+- Next.js (App Router), TypeScript, Tailwind CSS
+- Import alias: `@/*` maps to `./src/*`
+
+## Folder conventions
+- `src/app/` — routes, layout, global styles
+- `src/components/` — UI sections and reusable pieces (Hero, About, Work, Contact, etc.)
+- `src/lib/` — small helpers, constants, shared utilities
+
+## How to build features
+- Use the **user’s stated copy and goals** from the chat (name, tagline, projects, contact) when implementing UI; if something is missing, ask briefly before inventing personal details.
+- Build the single-page portfolio **one section at a time** (start with Hero), then iterate.
+- Use Tailwind for styling; keep layouts **responsive** (mobile-first, sensible breakpoints).
+- Prefer accessible HTML (semantic landmarks, labels on form controls when you add the Contact section).
+
+## Out of scope until requested
+- Do not add dark mode, smooth scroll, or load animations unless the user asks (stretch goals).
